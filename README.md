@@ -1,7 +1,6 @@
 # Monte Carlo VaR / CVaR Engine  
 
 [![Live Demo – Streamlit](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://bad-day-bingo-var-calculator.streamlit.app/)  
-[![Daily VaR Report](https://github.com/whynimisha/var-engine/actions/workflows/var.yml/badge.svg)](https://github.com/whynimisha/var-engine/actions/workflows/var.yml)  
 
 **Try it live:** [bad-day-bingo-var-calculator.streamlit.app](https://bad-day-bingo-var-calculator.streamlit.app/)  
 
