@@ -5,15 +5,6 @@
 
 **Try it live:** [bad-day-bingo-var-calculator.streamlit.app](https://bad-day-bingo-var-calculator.streamlit.app/)  
 
-
-Perfect 👍 Let’s rewrite your README into a **polished, recruiter/quant-friendly version** that highlights impact, skills, and results. You can paste this directly into your GitHub.
-
----
-
-# Monte Carlo VaR / CVaR Engine
-
-[![Streamlit Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen)](https://your-streamlit-demo-link.com)
-
 ## Overview
 
 **Bad Day Bingo** is a Value-at-Risk (VaR) and Conditional VaR (CVaR) engine that answers one critical question:
