@@ -46,7 +46,7 @@ Upload a portfolio, simulate alternate scenarios, and estimate losses across hor
 
 ## Live Demo
 
-▶️ [Streamlit App](https://your-streamlit-demo-link.com)
+[Streamlit App]([https://your-streamlit-demo-link.com](https://bad-day-bingo-var-calculator.streamlit.app/))
 Or run locally:
 python var_engine.py --mode t --df 6 --horizon 1 --scenarios 20000 --kde
 streamlit run app.py
