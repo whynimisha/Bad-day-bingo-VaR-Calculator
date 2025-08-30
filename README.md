@@ -1,21 +1,66 @@
+# Monte Carlo VaR / CVaR Engine  
+
+[![Live Demo – Streamlit](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://bad-day-bingo-var-calculator.streamlit.app/)  
+[![Daily VaR Report](https://github.com/whynimisha/var-engine/actions/workflows/var.yml/badge.svg)](https://github.com/whynimisha/var-engine/actions/workflows/var.yml)  
+
+**Try it live:** [bad-day-bingo-var-calculator.streamlit.app](https://bad-day-bingo-var-calculator.streamlit.app/)  
+
+
+Perfect 👍 Let’s rewrite your README into a **polished, recruiter/quant-friendly version** that highlights impact, skills, and results. You can paste this directly into your GitHub.
+
+---
+
 # Monte Carlo VaR / CVaR Engine
 
-[![Live Demo – Streamlit](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://https://bad-day-bingo-var-calculator.streamlit.app/)
+[![Streamlit Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen)](https://your-streamlit-demo-link.com)
 
-WHAT IS IT?
+## Overview
 
-Bad Day Bingo — a tiny app that answers one question: “If the market throws a tantrum, how much could I lose?”
-Upload a portfolio and run. It simulates a bunch of alternate tomorrows, then shows where your “bad-day” losses land. Toggle spicy tails (more crashy days), switch 1/5/10/20-day horizons, and peek at stress tests. It won’t predict the future—but it’ll stop you from pretending you don’t have one. 
+**Bad Day Bingo** is a Value-at-Risk (VaR) and Conditional VaR (CVaR) engine that answers one critical question:
 
-HIRE ME MANIFESTO
+> *“If the market throws a tantrum, how much could I lose?”*
 
-Monte Carlo VaR/CVaR engine with multi-model risk and automated reporting.
-Implements Gaussian, Student-t (fat-tail), and Historical bootstrap simulations with Cholesky-preserved correlations. Supports multi-day horizons (1/5/10/20d), stress tests (±kσ), and a rolling backtest that reports 95% VaR exceedances. Artifacts (plots + JSON) are auto-generated daily via GitHub Actions; a Streamlit UI enables interactive runs and toggling model assumptions.
+Upload a portfolio, simulate alternate scenarios, and estimate losses across horizons. The app supports stress tests, fat-tail risk modeling, and rolling backtests — giving you an interactive way to quantify portfolio risk.
 
-Run:
+## Features
+
+* **Monte Carlo Simulations**: Gaussian & Student-t (fat-tail) distributions
+* **Multi-Horizon Support**: 1 / 5 / 10 / 20-day horizons
+* **Stress Testing**: ±σ shocks for crash-day scenarios
+* **Backtesting**: Rolling 95% exceedance checks
+* **Automation**: GitHub Actions generate daily plots + JSON reports
+* **Interactive UI**: Streamlit dashboard for toggling assumptions
+
+## Example Results (NIFTY Portfolio Demo)
+
+* **95% VaR (10-day)**: −₹1.2L
+* **99% VaR (10-day)**: −₹2.5L
+* **CVaR 99%**: −₹3.4L
+
+## 🛠️ Tech Highlights
+
+* Python: `NumPy`, `Pandas`, `SciPy`, `yfinance`
+* Risk Models: Monte Carlo, Student-t, Bootstrap Simulations
+* Visualization: `matplotlib`, `Streamlit`
+* Automation: GitHub Actions (auto-reports)
+
+## Live Demo
+
+▶️ [Streamlit App](https://your-streamlit-demo-link.com)
+Or run locally:
 python var_engine.py --mode t --df 6 --horizon 1 --scenarios 20000 --kde
-
-Streamlit demo:
 streamlit run app.py
 
-![Daily VaR Report](https://github.com/whynimisha/var-engine/actions/workflows/var.yml/badge.svg)
+
+## Use Cases
+
+* Portfolio risk management for equities
+* Stress testing during high volatility
+* Academic/industry benchmarking against Basel III norms
+* Training tool for risk analytics students
+
+## Closing Note
+
+This project is part of my exploration into **quantitative finance and risk modeling**.
+Feedback and collaboration are welcome — feel free to connect!
+
