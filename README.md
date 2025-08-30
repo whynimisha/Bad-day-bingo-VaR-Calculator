@@ -1,6 +1,6 @@
 # Monte Carlo VaR / CVaR Engine
 
-[![Live Demo – Streamlit](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://bad-day-bingo.streamlit.app/)
+[![Live Demo – Streamlit](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://https://bad-day-bingo-var-calculator.streamlit.app/)
 
 WHAT IS IT?
 
